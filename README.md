@@ -10,13 +10,6 @@ The study explores **category-wise savings, discount frequency, and predictive m
 
 ---
 
-## 🎯 Research Objectives
-- **Category-wise Discount Analysis**: Identify categories with maximum savings and frequent discounts.  
-- **Savings Impact**: Quantify price variations between original and final prices.  
-- **Predictive Modeling**: Build models to forecast discount percentage and availability using product features.  
-- **Actionable Insights**: Provide evidence-based recommendations for pricing strategies and consumer awareness.
-
----
 
 ## 📂 Data Collection
 - **Source**: Chaldal.com (web scraping).  
@@ -84,11 +77,6 @@ The study explores **category-wise savings, discount frequency, and predictive m
 
 ---
 
-## ✅ Conclusion
-This project successfully quantified **pricing trends, discount patterns, and savings impact** in Chaldal’s e-commerce dataset.  
-While Random Forest models provided moderate predictive accuracy, the study highlights the need for **advanced models and additional features** to improve discount forecasting.  
-
----
 
 ## 📂 Project Files
 - `MergedData.csv` → Cleaned dataset with all categories.  
