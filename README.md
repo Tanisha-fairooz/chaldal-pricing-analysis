@@ -1,6 +1,4 @@
-Here’s a well-structured **README** draft for your project, based on the report you shared. It’s organized in a clear, sorted format with all the necessary details:
 
----
 
 # 📊 Analyzing Category-Wise Discounts and Pricing Patterns of Chaldal Products
 
@@ -83,7 +81,4 @@ The study explores **category-wise savings, discount frequency, and predictive m
 - `REPORT.docx` → Detailed methodology, analysis, and results.  
 - R scripts → Web scraping, preprocessing, analysis, visualization, and modeling.  
 
--
 ---
-
-Would you like me to also prepare a **GitHub-style README template** (with installation steps, usage instructions, and contribution guidelines), so it’s ready to publish directly on your repository?
