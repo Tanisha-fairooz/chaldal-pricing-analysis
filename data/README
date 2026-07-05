@@ -1,1 +1,50 @@
+# Chaldal Product Pricing Dataset
+
+## Overview
+
+This dataset contains pricing information for products collected from **Chaldal**, a leading e-commerce platform in Bangladesh. It was created for analyzing category-wise pricing patterns, discount trends, and supporting predictive modeling tasks in data science and machine learning.
+
+## Dataset Information
+
+- **Number of Records:** 687
+- **Number of Features:** 8
+- **Format:** CSV
+
+## Features
+
+| Column | Description |
+|--------|-------------|
+| Category | Product category (e.g., Fruits, Vegetables, Frozen Fish) |
+| ProductName | Name of the product |
+| SubText | Product description such as weight, quantity, or packaging |
+| OriginalPrice | Original listed price (BDT) |
+| DiscountedPrice | Discounted price (BDT), if available |
+| DiscountFlag | Indicates whether a discount is available (1 = Yes, 0 = No) |
+| FinalPrice | Final selling price (DiscountedPrice if available; otherwise OriginalPrice) |
+| DiscountPercentage | Percentage discount applied to the product |
+
+## Data Collection
+
+The data was collected through web scraping using R from the Chaldal website. Product information was gathered across multiple product categories and merged into a single dataset for analysis.
+
+## Possible Applications
+
+- Exploratory Data Analysis (EDA)
+- Price trend analysis
+- Discount analysis
+- Consumer behavior research
+- Machine Learning
+  - Regression
+  - Classification
+- Statistical analysis
+- Data visualization
+
+## Notes
+
+- Prices are expressed in Bangladeshi Taka (BDT).
+- Products without discounts have:
+  - `DiscountFlag = 0`
+  - `DiscountPercentage = NA`
+  - `FinalPrice = OriginalPrice`
+- The dataset was created for academic and research purposes.
 
